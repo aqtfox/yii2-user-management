@@ -228,7 +228,7 @@ class UserManagementModule extends \yii\base\Module
 			Yii::$app->i18n->translations['modules/user-management/*'] = [
 				'class'          => 'yii\i18n\PhpMessageSource',
 				'sourceLanguage' => 'en',
-				'basePath'       => '@vendor/webvimark/module-user-management/messages',
+				'basePath'       => '@vendor/aqtfox/module-user-management/messages',
 				'fileMap'        => [
 					'modules/user-management/back' => 'back.php',
 					'modules/user-management/front' => 'front.php',

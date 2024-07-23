@@ -70,7 +70,6 @@ abstract class UserIdentity extends ActiveRecord implements IdentityInterface
 
 		return static::findOne([
 			'confirmation_token' => $token,
-			'status'             => User::STATUS_ACTIVE,
 		]);
 	}
 
